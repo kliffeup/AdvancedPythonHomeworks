@@ -1,0 +1,55 @@
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ cat one_row_file 
+test😀(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ wc one_row_file 
+0 1 8 one_row_file
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ python hw1/wc.py one_row_file 
+0 1 8 one_row_file
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ wc one_row_file one_row_file 
+ 0  1  8 one_row_file
+ 0  1  8 one_row_file
+ 0  2 16 итого
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ python hw1/wc.py one_row_file one_row_file 
+ 0  1  8 one_row_file
+ 0  1  8 one_row_file
+ 0  2 16 total
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ cat test_file2 
+test1
+test2
+test3
+test4
+test5
+test6
+test7
+test8
+test9
+test10
+test11
+test12
+test13
+test14
+test15
+test16
+test17
+test18
+test19
+loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong str
+loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong str(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ wc test_file2 
+ 20  23 259 test_file2
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ python hw1/wc.py test_file2 
+ 20  23 259 test_file2
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ wc test_file2 one_row_file 
+ 20  23 259 test_file2
+  0   1   8 one_row_file
+ 20  24 267 итого
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ python hw1/wc.py test_file2 one_row_file 
+ 20  23 259 test_file2
+  0   1   8 one_row_file
+ 20  24 267 total
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ wc
+1
+23
+4      2       3       6
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ python hw1/wc.py
+1
+23
+4      2       3       6
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ 

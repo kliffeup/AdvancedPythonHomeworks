@@ -1,0 +1,47 @@
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ cat test_file
+test1
+test2
+test3
+test4
+test5
+test6
+test7
+test8
+test9
+test10
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ nl -b a test_file 
+     1  test1
+     2  test2
+     3  test3
+     4  test4
+     5  test5
+     6  test6
+     7  test7
+     8  test8
+     9  test9
+    10  test10
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ python hw1/nl.py test_file 
+     1  test1
+     2  test2
+     3  test3
+     4  test4
+     5  test5
+     6  test6
+     7  test7
+     8  test8
+     9  test9
+    10  test10
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ cat empty_file 
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ nl -b a empty_file 
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ python hw1/nl.py empty_file 
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ nl -b a
+test stdin input
+     1  test stdin input
+test2 stdin input
+     2  test2 stdin input
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ python hw1/nl.py
+test stdin input
+     1  test stdin input
+test2 stdin input
+     2  test2 stdin input
+(adv_python) kliffeup@alchemist:~/PycharmProjects/AdvancedPythonHomeworks$ 
