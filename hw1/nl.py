@@ -12,7 +12,6 @@ def nl(input_file: click.File) -> None:
     while True:
         line = input_file.readline()
         if not line:
-            # sys.stdout.write("\n")
             break
 
         sys.stdout.write(f"{line_count: >6}\t{line}")
