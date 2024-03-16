@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68.2.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "latex_doc_generation"
+version = "0.0.3"
+authors = [
+  { name="kliffeup" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/kliffeup/AdvancedPythonHomeworks/tree/hw2"
+Issues = "https://github.com/kliffeup/AdvancedPythonHomeworks/issues"

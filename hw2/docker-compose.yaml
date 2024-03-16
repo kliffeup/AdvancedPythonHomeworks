@@ -1,0 +1,9 @@
+services:
+  latex-doc-generation:
+    build:
+      dockerfile: Dockerfile
+    command: bash -c 'echo | pdflatex -output-directory=./artifacts ./artifacts/table_image.tex'
+    working_dir: /app
+    volumes:
+      - ./images:/app/images
+      - ./artifacts:/app/artifacts
